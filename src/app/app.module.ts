@@ -28,6 +28,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { NavComponent } from './components/nav/nav.component';
 
 
 // Componentes do projeto
@@ -54,6 +55,7 @@ import { MatCardModule } from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
+    NavComponent,
     //NavComponent,
     //HomeComponent,
     //HeaderComponent,
