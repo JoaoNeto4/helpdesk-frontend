@@ -56,7 +56,6 @@ import { NavComponent } from './components/nav/nav.component';
   declarations: [
     AppComponent,
     NavComponent,
-    //NavComponent,
     //HomeComponent,
     //HeaderComponent,
     //TecnicoListComponent,
