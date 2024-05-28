@@ -96,7 +96,7 @@ import { HomeComponent } from './components/home/home.component';
     //MatTableModule,
     MatIconModule,
     MatListModule,
-    //MatCardModule,
+    MatCardModule,
     //ToastrModule.forRoot({
     //  timeOut: 4000,
     //  closeButton: true,
