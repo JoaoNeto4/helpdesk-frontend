@@ -82,8 +82,8 @@ import { LoginComponent } from './components/login/login.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     // Forms
-    //FormsModule,
-    //ReactiveFormsModule,
+    FormsModule,
+    ReactiveFormsModule,
     // Requisições http
     //HttpClientModule,
     // Angular Material
