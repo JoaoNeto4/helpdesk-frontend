@@ -95,7 +95,7 @@ import { LoginComponent } from './components/login/login.component';
     MatSidenavModule,
     MatButtonModule,
     //MatSelectModule,
-    //MatInputModule,
+    MatInputModule,
     //MatRadioModule,
     MatTableModule,
     MatIconModule,
