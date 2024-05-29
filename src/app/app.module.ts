@@ -22,7 +22,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
-import { MatTableModule } from '@angular/material/table';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
@@ -62,8 +62,6 @@ import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-
     HomeComponent,
     HeaderComponent,
     TecnicoListComponent,
-    //HeaderComponent,
-    //TecnicoListComponent,
     //LoginComponent,
     //TecnicoCreateComponent,
     //TecnicoUpdateComponent,
@@ -88,7 +86,7 @@ import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-
     //HttpClientModule,
     // Angular Material
     //MatFormFieldModule,
-    //MatPaginatorModule,
+    MatPaginatorModule,
     //MatCheckboxModule,
     //MatSnackBarModule,
     //MatToolbarModule,
@@ -97,7 +95,7 @@ import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-
     //MatSelectModule,
     //MatInputModule,
     //MatRadioModule,
-    //MatTableModule,
+    MatTableModule,
     MatIconModule,
     MatListModule,
     MatCardModule,
