@@ -29,8 +29,13 @@ export class LoginComponent implements OnInit {
 
   logar() {
     this.service.authenticate(this.creds).subscribe(resposta => {
-      this.service.successFullLogin(resposta.headers.get('Authorization').substring(7));
-      this.router.navigate([''])
+      const authToken = resposta.headers.get('Authorization');
+      if (authToken) {
+        this.service.successFullLogin(resposta.headers.get('Authorization').substring(7));
+        this.router.navigate([''])
+      } else {
+        this.toast.error('Erro ao obter o token de autenticação');
+      }
     }, () => {
       this.toast.error('Usuário e/ou senha inválidos');
     })
