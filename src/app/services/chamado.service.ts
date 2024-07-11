@@ -15,5 +15,9 @@ export class ChamadoService {
     return this.http.get<Chamado[]>(`${API_CONFIG.base_url}/chamados`);
   }
 
+  create(chamado: Chamado): Observable<Chamado> {
+    return this.http.post<Chamado>(`${API_CONFIG.base_url}/chamados`, chamado)
+  }
+
 
 }
