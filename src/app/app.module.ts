@@ -46,20 +46,8 @@ import { ClienteListComponent } from './components/cliente/cliente-list/cliente-
 import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-list.component';
 import { ChamadoCreateComponent } from './components/chamado/chamado-create/chamado-create.component';
 import { ChamadoUpdateComponent } from './components/chamado/chamado-update/chamado-update.component';
+import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-read.component';
 
-
-// Componentes do projeto
-//import { NavComponent } from './components/nav/nav.component';
-//import { HomeComponent } from './components/home/home.component';
-//import { HeaderComponent } from './components/header/header.component';
-//import { LoginComponent } from './components/login/login.component';
-//import { ToastrModule } from 'ngx-toastr';
-//import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
-//import { NgxMaskModule } from 'ngx-mask';
-//import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-list.component';
-//import { ChamadoCreateComponent } from './components/chamado/chamado-create/chamado-create.component';
-//import { ChamadoUpdateComponent } from './components/chamado/chamado-update/chamado-update.component';
-//import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-read.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +60,6 @@ import { ChamadoUpdateComponent } from './components/chamado/chamado-update/cham
     TecnicoCreateComponent,
     TecnicoUpdateComponent,
     TecnicoDeleteComponent,
-    //LoginComponent,
     ClienteCreateComponent,
     ClienteDeleteComponent,
     ClienteListComponent,
@@ -80,10 +67,7 @@ import { ChamadoUpdateComponent } from './components/chamado/chamado-update/cham
     ChamadoListComponent,
     ChamadoCreateComponent,
     ChamadoUpdateComponent,
-    //ChamadoListComponent,
-    //ChamadoCreateComponent,
-    //ChamadoUpdateComponent,
-    //ChamadoReadComponent
+    ChamadoReadComponent,
   ],
   imports: [
     BrowserModule,

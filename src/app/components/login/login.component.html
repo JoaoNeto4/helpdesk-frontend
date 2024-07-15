@@ -2,7 +2,7 @@
     <form class="form mat-elevation-z8">
         <h1> HelpDesk System</h1>
         <img src="assets/img/cadeado.svg" alt="HelpDesk System">
-        <mat-form-field class="full-width" appearance="fill">
+        <mat-form-field class="full-width" appearance="outline">
             <mat-label>E-mail</mat-label>
             <input 
                 [formControl]="email"
@@ -12,10 +12,11 @@
                 matInput 
                 placeholder="Ex. email@mail.com"
             >
+            <mat-icon matSuffix>email</mat-icon>
         </mat-form-field>
 
 
-        <mat-form-field class="full-width" appearance="fill">
+        <mat-form-field class="full-width" appearance="outline">
             <mat-label>Senha</mat-label>
             <input 
                 [formControl]="senha"
@@ -26,6 +27,7 @@
                 placeholder="Ex. 123"
                 type="password"
             >
+            <mat-icon matSuffix>password</mat-icon>
         </mat-form-field>
 
         <button (click)="logar()" [disabled]="!validaCampos()" class="full-width mat-elevation-z8" mat-stroked-button color="primary">Login</button>
